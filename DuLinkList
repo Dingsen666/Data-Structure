@@ -1,0 +1,4 @@
+typedef struct DuLNode{
+    ElemType data;
+    struct DuLNode *prior,*next;
+}DuLnode,*DuLinkList;
